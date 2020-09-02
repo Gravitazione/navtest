@@ -1,0 +1,160 @@
+.features {
+    background-color: #121921;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 922px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.features ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.features ul li {
+    float: left;
+    width: 33.33%;
+    position: relative;
+}
+
+li {
+    display: list-item;
+    text-align: match-parent;
+}
+
+.features ul li i {
+    color: #fff;
+    font-size: 46px;
+    font-size: 2.875rem;
+    margin-bottom: 10px;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.features ul li h4 {
+    color: #fff;
+    font-size: 18px;
+    font-size: 1.125rem;
+    margin: 0;
+    color: #FFC107;
+}
+
+.features ul li span {
+    opacity: 0.7;
+}
+
+.clearfix {
+    display: flex;
+    clear: both;
+    content: "";
+}
+
+.margin-120-0 {
+    padding-top: 120px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-title-2 {
+    text-align: center;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.main-title-2 span {
+    width: 120px;
+    height: 2px;
+    background-color: #e1e1e1;
+    display: flex;
+    margin: auto;
+}
+
+.main-title-2 span em {
+    width: 60px;
+    height: 2px;
+    background-color: #662d91;
+    display: flex;
+    margin: auto;
+}
+
+.margin-30-95 {
+    padding-top: 30px;
+    padding-bottom: 95px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
