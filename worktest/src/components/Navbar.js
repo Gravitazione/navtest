@@ -56,7 +56,7 @@ function Navbar() {
                     </li>
                     <li className='nav-item'>
                         <Link to='/shopping-cart' className='nav-links' onClick={closeMobileMenu}>
-                            ตระกร้าซื้อของ
+                            ตะกร้าซื้อของ
                         </Link>
                     </li>
                     <li className='nav-item'>
@@ -66,7 +66,7 @@ function Navbar() {
                     </li>
                 </ul>
                 <Button />
-            </nav>  
+            </nav>
         </>
     )
 }
